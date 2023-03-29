@@ -1,6 +1,34 @@
 *{
     box-sizing: border-box;    
 }
+@font-face {
+    font-family: Monteserrat;
+    src: url(montserrat.ttf);
+}
+/*Edge*/
+::-webkit-input-placeholder{
+    font-family: Monteserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: gray;
+}
+/*Internet Explorer 10-11*/
+:-ms-input-placeholder{
+    font-family: Monteserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: gray;
+}
+/*Demais navegadores*/
+::placeholder{
+    font-family: Monteserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: gray;
+}
 .fullCenter{
     padding: 15px;
     display: flex;
@@ -14,4 +42,47 @@
     justify-content: center;
     align-content: center;
 }
+h1{
+    font-family: Monteserrat;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+}
+label{
+    font-family: Monteserrat;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.textfield{
+    width: 324px;
+    height: 58px;
+    background-color: white;
+    border: #767676 solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0px;
+    font-family: Monteserrat;
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+    line-height: 19px;
+}
+.whiteButton{
+    width: 150px;
+    height: 58px;
+    padding: 20px;
+    font-family: Monteserrat;
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+}
+#satisfação{
+    width: 90%;
+}
+
+
+
 
